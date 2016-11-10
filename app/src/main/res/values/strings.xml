@@ -1,0 +1,764 @@
+<resources>
+    <string name="app_name">CountriesCapitals</string>
+    <string name="action_share">Share</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+   <string name="desc">The widely recognized all the 7 continents are listed below,
+       Discover all the countries of world listed by continent</string>
+    <string name="antarctica"> Antarctica is the coldest continent in the world, completely covered with ice.
+        There are no permanent inhabitants, except of scientists maintaining research stations in
+        Antarctica</string>
+    <string name="Try">Try Again!</string>
+    <string name="desc2main">All the countires at a glance </string>
+    <string name="quiztitle">Take Quiz Here</string>
+    <string name="Score">You Scored = </string>
+    <string name="Africa">54 Countries of Africa</string>
+    <string name="Asia">50 Countries of Asia</string>
+    <string name="Australia">14 Countries of Australia</string>
+    <string name="Europe">51 Countries of Europe</string>
+    <string name="NorthAmerica">23 Countries of NorthAmerica</string>
+    <string name="SouthAmerica">12 Countries of SouthAmerica</string>
+    <string name="desc2">Search Country or Capital </string>
+    <string name="country">Country Name</string>
+    <string name="capital">Capital Name</string>
+    <string name="drawer_open">Navigation drawer open</string>
+    <string name="drawer_close">Navigation drawer closed</string>
+    <string-array name="list_navdraw">
+        <item>Home</item>
+        <item>Africa</item>
+        <item>Asia</item>
+        <item>Europe</item>
+        <item>North America</item>
+        <item>South America</item>
+        <item>Australia</item>
+        <item>All Countries</item>
+        <item>Flag Quiz</item>
+        <item>Name Quiz</item>
+        <item>Antarctica</item>
+    </string-array>
+
+
+    <string name="title_activity_south_america">SouthAmerica</string>
+
+    <string-array name="SAmericaCountries">
+        <item>Argentina</item>
+        <item>Bolivia</item>
+        <item>Brazil</item>
+        <item>Chile</item>
+        <item>Colombia</item>
+        <item>Ecuador</item>
+        <item>Guyana</item>
+        <item>Paraguy</item>
+        <item>Peru</item>
+        <item>Suriname</item>
+        <item>Uruguy</item>
+        <item>Venezuela</item>
+    </string-array>
+    <string-array name="SAmericaCapitals">
+        <item>Buenos Aires</item>
+        <item>Lapez</item>
+        <item>Brasilia</item>
+        <item>Santiago</item>
+        <item>Bogota</item>
+        <item>Quito</item>
+        <item>GeorgeTown</item>
+        <item>Asuncion</item>
+        <item>Lima</item>
+        <item>Paramaribo</item>
+        <item>Montevideo</item>
+        <item>Caracas</item>
+    </string-array>
+    <string-array name="SAmericaCurrency">
+        <item>Argentine Peso</item>
+        <item>Bolivian Boliviano</item>
+        <item>Brazilian Real</item>
+        <item>Chilean Peso </item>
+        <item>Colombian Peso</item>
+        <item>United States Dollar</item>
+        <item>Guyanese Dollar</item>
+        <item>Paraguayan Guaranai </item>
+        <item>Peruvian Sol</item>
+        <item>Surinamese Dollar</item>
+        <item>Uruguayan Peso</item>
+        <item>Venezuelan Bolivar</item>
+    </string-array>
+
+    <string name="title_activity_country_info">CountryInfo</string>
+    <string-array name="AfricaCountries">
+        <item>Algeria</item>
+        <item>Angola</item>
+        <item>Benin</item>
+        <item>Botswana</item>
+        <item>Burkina Faso</item>
+        <item>Burundi</item>
+        <item>Cabo Verde</item>
+        <item>Cameroon</item>
+        <item>Central African Republic</item>
+        <item>Chad</item>
+        <item>Comoros</item>
+        <item>Congo, Republic of the</item>
+        <item>Congo, Democratic Republic of the</item>
+        <item>Cote dIvoire</item>
+        <item>Djibouti</item>
+        <item>Egypt</item>
+        <item>Equatorial Guinea</item>
+        <item>Eritrea</item>
+        <item>Ethiopia</item>
+        <item>Gabon</item>
+        <item>Gambia</item>
+        <item>Ghana</item>
+        <item> Guinea</item>
+        <item> Guinea-Bissau</item>
+        <item>Kenya</item>
+        <item>Lesotho</item>
+        <item>Liberia</item>
+        <item>Libya</item>
+        <item> Madagascar</item>
+        <item>Malawi</item>
+        <item>Mali</item>
+        <item>Mauritania</item>
+        <item>Mauritius</item>
+        <item>Morocco</item>
+        <item>Mozambique</item>
+        <item>Namibia</item>
+        <item>Niger</item>
+        <item>Nigeria</item>
+        <item>Rwanda</item>
+        <item>  Sao Tome and Principe</item>
+        <item>Senegal</item>
+        <item>Seychelles</item>
+        <item>Sierra Leone</item>
+        <item>Somalia</item>
+        <item>South Africa</item>
+        <item>South Sudan</item>
+        <item>Sudan</item>
+        <item>Swaziland</item>
+        <item> Tanzania</item>
+        <item>Togo</item>
+        <item>Tunisia</item>
+        <item> Uganda</item>
+        <item> Zambia</item>
+        <item>Zimbabwe</item>
+    </string-array>
+    <string-array name="AfricaCapitals">
+        <item>Algeirs</item>
+        <item>Luanda</item>
+        <item>Porto-Novo</item>
+        <item>Gaborone</item>
+        <item>Ouagadougou</item>
+        <item>BuJumbura</item>
+        <item>Praia</item>
+        <item>Yaounde</item>
+        <item>Bangui</item>
+        <item>NDjamena</item>
+        <item>Moroni</item>
+        <item>Brazaville</item>
+        <item>Kinshasa</item>
+        <item>Yamoussoukro</item>
+        <item>DJibouti</item>
+        <item>Cairo</item>
+        <item>Malabo</item>
+        <item>Asmara</item>
+        <item>Addis Ababa</item>
+        <item>Libreville</item>
+        <item>Banjul</item>
+        <item>Accra</item>
+        <item>Conakry</item>
+        <item>Bisaau</item>
+        <item>Nairobi</item>
+        <item>Maseru</item>
+        <item>monrovia</item>
+        <item>Tripoli</item>
+        <item>Antananarivo</item>
+        <item>Lilongwe</item>
+        <item>Bamako</item>
+        <item>Nouakchott</item>
+        <item>PortLouis</item>
+        <item>Rabat</item>
+        <item>Maputo</item>
+        <item>Windhoek</item>
+        <item>Niamey</item>
+        <item>Abuja</item>
+        <item>Kigali</item>
+        <item>Sao Tome</item>
+        <item>Dakar</item>
+        <item>Victoria</item>
+        <item>Freetown</item>
+        <item>Mogadishu</item>
+        <item>Pretoria (administrative)<br/> Cape Town (legislative)<br/> Bloemfontein (judicial)</item>
+        <item>Juba</item>
+        <item>Khartoum</item>
+        <item>Mbabane</item>
+        <item>Dodoma</item>
+        <item>Lome</item>
+        <item>Tunis</item>
+        <item> Kampala</item>
+        <item> Lusaka</item>
+        <item>Harare</item>
+
+    </string-array>
+    <string-array name="AfricaCurrency">
+        <item>Algerian dinar</item>
+        <item>Angolan kwanza</item>
+        <item>West African CFA franc</item>
+        <item>Botswana pula</item>
+        <item>West African CFA franc</item>
+        <item>Burundi franc</item>
+        <item>Cape Verdean escudo</item>
+        <item>Central African CFA franc</item>
+        <item>Central African CFA franc</item>
+        <item>Central African CFA franc</item>
+        <item>Comorian franc</item>
+        <item>Central African CFA franc</item>
+        <item>Congolese franc</item>
+        <item>West African CFA franc</item>
+        <item>Djiboutian franc</item>
+        <item>Egyptian pound</item>
+        <item>Central African CFA franc</item>
+        <item>Eritrean nakfa</item>
+        <item>Ethiopian birr</item>
+        <item>Central African CFA franc</item>
+        <item>Gambian dalasi</item>
+        <item>Ghanaian cedi</item>
+        <item> Guinean franc</item>
+        <item> West African CFA franc</item>
+        <item>Kenyan shilling</item>
+        <item>Lesotho loti</item>
+        <item>Liberian dollar</item>
+        <item>Libyan dinar</item>
+        <item>Malagasy ariary</item>
+        <item>Malawian kwacha</item>
+        <item>West African CFA franc</item>
+        <item>Mauritanian ouguiya</item>
+        <item>Mauritian rupee</item>
+        <item>Moroccan dirham</item>
+        <item>Mozambican metical</item>
+        <item>Namibian dollar</item>
+        <item>West African CFA franc</item>
+        <item>Nigerian naira</item>
+        <item>Rwandan franc</item>
+        <item>  Sao Tome and Principe dobra</item>
+        <item>West African CFA franc</item>
+        <item>Seychellois rupee</item>
+        <item>Sierra Leonean leone</item>
+        <item>Somali shilling</item>
+        <item>South African rand</item>
+        <item>South Sudanese pound</item>
+        <item>Sudanese pound</item>
+        <item>Swazi lilangeni</item>
+        <item> Tanzanian shilling</item>
+        <item>West African CFA franc</item>
+        <item>Tunisian dinar</item>
+        <item> Ugandan shilling</item>
+        <item> Zambian kwacha</item>
+        <item>United States dollar</item>
+    </string-array>
+    <string-array name="AsiaCountries">
+        <item>Afghanistan</item>
+        <item>Armenia</item>
+        <item>Azerbaijan</item>
+        <item>Bahrain</item>
+        <item>Bangladesh</item>
+        <item>Bhutan</item>
+        <item>Brunei</item>
+        <item>Cambodia</item>
+        <item>China</item>
+        <item>Cyprus</item>
+        <item>Georgia</item>
+        <item>India</item>
+        <item>Indonesia</item>
+        <item>Iran</item>
+        <item>Iraq</item>
+        <item>Israel</item>
+        <item>Japan</item>
+        <item>Jordan</item>
+        <item>Kazaksthan</item>
+        <item>Kuwait</item>
+        <item>KyrGyzstan</item>
+        <item>Laos</item>
+        <item>Lebanan</item>
+        <item>Malasia</item>
+        <item>Maldives</item>
+        <item>Mangolia</item>
+        <item>Myanmar</item>
+        <item>Nepal</item>
+        <item>NorthKorea</item>
+        <item>Oman</item>
+        <item>Pakistan</item>
+        <item>Palestenie</item>
+        <item>Philippines</item>
+        <item>Qatar</item>
+        <item>Russia</item>
+        <item>SaudiArabia</item>
+        <item>Singapore</item>
+        <item>SouthKOrea</item>
+        <item>SriLanka</item>
+        <item>Syria</item>
+        <item>Taiwan</item>
+        <item>Tajikistan</item>
+        <item>Thailand</item>
+        <item>Timor-Leste</item>
+        <item>Turkey</item>
+        <item>Turkmenistan</item>
+        <item>United Arab Emirates</item>
+        <item>Uzbekistan</item>
+        <item>Vietnam</item>
+        <item>Yemen</item>
+        </string-array>
+    <string-array name="AsiaCapitals">
+        <item>Kabul</item>
+        <item>Yerevan</item>
+        <item>Baku</item>
+        <item>Manama</item>
+        <item>Dhaka</item>
+        <item>Thimphu</item>
+        <item>Bandar Seri Begawan</item>
+        <item>Phnom Penh</item>
+        <item>Beijing</item>
+        <item> Nicosia</item>
+        <item>Tbilisi</item>
+        <item>New Delhi</item>
+        <item>Jakarta</item>
+        <item>Tehran</item>
+        <item>Baghdad</item>
+        <item>Jerusalem</item>
+        <item>Tokyo</item>
+        <item>Amman</item>
+        <item>Astana</item>
+        <item>Kuwait City</item>
+        <item>Bishkek</item>
+        <item>Vientiane</item>
+        <item>Beirut</item>
+        <item>Kuala Lumpur</item>
+        <item>Male</item>
+        <item>Ulaanbaatar</item>
+        <item>Naypyidaw</item>
+        <item>Kathmandu</item>
+        <item>Pyongyang</item>
+        <item>Muscat</item>
+        <item>Islamabad</item>
+        <item>Ramallah</item>
+        <item>Manila</item>
+        <item>Doha</item>
+        <item>Moscow</item>
+        <item>Riyadh</item>
+        <item>Singapore</item>
+        <item>Seoul</item>
+        <item>Sri Jayawardenepura Kotte</item>
+        <item>Damascus</item>
+        <item>Taipei</item>
+        <item>Dushanbe</item>
+        <item>Bangkok</item>
+        <item>Dili</item>
+        <item>Ankara</item>
+        <item>Ashgabat</item>
+        <item>Abu Dhabi</item>
+        <item>Tashkent</item>
+        <item>Hanoi</item>
+        <item>Sanaa</item>
+    </string-array>
+    <string-array name="AsiaCurrency">
+        <item>Afghan afghani</item>
+        <item>Armenian dram</item>
+        <item>Azerbaijani manat</item>
+        <item>Bahraini dinar</item>
+        <item>Bangladeshi taka</item>
+        <item>Bhutanese ngultrum</item>
+        <item>Brunei dollar</item>
+        <item>Cambodian riel</item>
+        <item>Chinese Yuan Renminbi</item>
+        <item>European euro</item>
+        <item>Georgian lari</item>
+        <item>Indian rupee</item>
+        <item>Indonesian rupiah</item>
+        <item>Iranian rial</item>
+        <item>Iraqi dinar</item>
+        <item>Israeli new shekel</item>
+        <item>Japanese yen</item>
+        <item>Jordanian dinar</item>
+        <item>Kazakhstani tenge</item>
+        <item>Kuwaiti dinar</item>
+        <item>Kyrgyzstani som</item>
+        <item>Lao kip</item>
+        <item>Lebanese pound</item>
+        <item>Malaysian ringgit</item>
+        <item>Maldivian rufiyaa</item>
+        <item>Mongolian tugrik</item>
+        <item>Myanmar kyat</item>
+        <item>Nepalese rupee</item>
+        <item>North Korean won</item>
+        <item>Omani rial</item>
+        <item>Pakistani rupee</item>
+        <item>Israeli new shekel</item>
+        <item>Philippine peso</item>
+        <item>Qatari riyal</item>
+        <item>Russian ruble</item>
+        <item>Saudi Arabian riyal</item>
+        <item>Singapore dollar</item>
+        <item>South Korean won</item>
+        <item>Sri Lankan rupee</item>
+        <item>Syrian pound</item>
+        <item>New Taiwan dollar	</item>
+        <item>Tajikistani somoni	</item>
+        <item>Thai baht	</item>
+        <item>United States dollar	</item>
+        <item>Turkish lira	</item>
+        <item>Turkmen manat	</item>
+        <item>UAE dirham	</item>
+        <item>Uzbekistani som</item>
+        <item>Vietnamese dong	</item>
+        <item>Yemeni rial	</item>
+    </string-array>
+    <string-array name="EuropeCountries">
+        <item>Albania</item>
+        <item>Androrra</item>
+        <item>Armenia</item>
+        <item>Austria</item>
+        <item>Azerbaijan</item>
+        <item>Belarus</item>
+        <item>Belgium</item>
+        <item>Bosnia and HerZegovina</item>
+        <item>Bulgaria</item>
+        <item>Croatia</item>
+        <item>Cyprus</item>
+        <item>CZechRepublic</item>
+        <item>Denmark</item>
+        <item>Estonia</item>
+        <item>Finland</item>
+        <item>France</item>
+        <item>Georgia</item>
+        <item>Germany</item>
+        <item>Greece</item>
+        <item>Hungary</item>
+        <item>Iceland</item>
+        <item>Ireland</item>
+        <item>Italy</item>
+        <item>Kazkhstan</item>
+        <item>Kosovo</item>
+        <item>Latvia</item>
+        <item>Liechtenstien</item>
+        <item>Lithuanina</item>
+        <item>Luxemborg</item>
+        <item>Macedonia</item>
+        <item>Malta</item>
+        <item>Moldova</item>
+        <item>Monaco</item>
+        <item>Montenegro</item>
+        <item>Netherlands</item>
+        <item>Noraway</item>
+        <item>Poland</item>
+        <item>Portugal</item>
+        <item>Romania</item>
+        <item>Russia</item>
+        <item>SanMarino</item>
+        <item>Serbia</item>
+        <item>Slovakia</item>
+        <item>Slovenia</item>
+        <item>Spain</item>
+        <item>Sweden</item>
+        <item>Switzerland</item>
+        <item>Turkey</item>
+        <item>Ukraine</item>
+        <item>UnitedKingdom</item>
+        <item>VatcanCity</item>
+    </string-array>
+    <string-array name="EuropeCapitals">
+        <item>Tirana</item>
+        <item>Andorra la vella</item>
+        <item>Yerevan</item>
+        <item>Vienna</item>
+        <item>Baku</item>
+        <item>Minsk</item>
+        <item>Brussels</item>
+        <item>Sarajevo</item>
+        <item>Sofia</item>
+        <item>Zagreb</item>
+        <item>Nicosia</item>
+        <item>Parague</item>
+        <item>CopenHagen</item>
+        <item>Tallin</item>
+        <item>Helsinki</item>
+        <item>Paris</item>
+        <item>Tbilsi</item>
+        <item>Berlin</item>
+        <item>Athens</item>
+        <item>Budapest</item>
+        <item>Rekjavik</item>
+        <item>Dublin</item>
+        <item>Rome</item>
+        <item>Astana</item>
+        <item>Pristina</item>
+        <item>Riga</item>
+        <item>Vaduz</item>
+        <item>Vilnius</item>
+        <item>Luxemborg</item>
+        <item>Skopje</item>
+        <item>Valetta</item>
+        <item>Chisinau</item>
+        <item>Monaco</item>
+        <item>Podgorica</item>
+        <item>Amsterdam</item>
+        <item>Oslo</item>
+        <item>Warsaw</item>
+        <item>Lisbon</item>
+        <item>Buchrest</item>
+        <item>  Moscow</item>
+        <item>SanMarino</item>
+        <item>Belgrade</item>
+        <item>Bratislava</item>
+        <item>Ljubljana</item>
+        <item>Madrid</item>
+        <item>Stockholm</item>
+        <item>Bern</item>
+        <item>Ankara</item>
+        <item>Kyiv</item>
+        <item>London</item>
+        <item>VaticanCity</item>
+    </string-array>
+    <string-array name="EuropeCurrency">
+        <item>Albanian lek</item>
+        <item>European euro	</item>
+        <item>Armenian dram		</item>
+        <item>European euro	</item>
+        <item>Azerbaijani manat	</item>
+        <item>Belarusian ruble	</item>
+        <item>European euro	</item>
+        <item>Bosnia and Herzegovina convertible mark	</item>
+        <item>Bulgarian lev	</item>
+        <item>Croatian kuna	</item>
+        <item>European euro	</item>
+        <item>Czech koruna	</item>
+        <item>Danish krone	</item>
+        <item>European euro	</item>
+        <item>European euro	</item>
+        <item>European euro	</item>
+        <item>Georgian lari	</item>
+        <item>European euro	</item>
+        <item>European euro	</item>
+        <item>Hungarian forint	</item>
+        <item>Icelandic krona	</item>
+        <item>European euro	</item>
+        <item>European euro	</item>
+        <item>Kazakhstani tenge	</item>
+        <item>European euro	</item>
+        <item>European euro	</item>
+        <item>Swiss franc	</item>
+        <item>European euro	</item>
+        <item>European euro	</item>
+        <item>Macedonian denar	</item>
+        <item>European euro	</item>
+        <item>Moldovan leu	</item>
+        <item>European euro	</item>
+        <item>European euro	</item>
+        <item>European euro	</item>
+        <item>Norwegian krone	</item>
+        <item>Polish zloty	</item>
+        <item>European euro	</item>
+        <item>Romanian leu	</item>
+        <item>Russian ruble	</item>
+        <item>European euro	</item>
+        <item>Serbian dinar	</item>
+        <item>European euro	</item>
+        <item>European euro	</item>
+        <item>European euro	</item>
+        <item>Swedish krona	</item>
+        <item>Swiss franc	</item>
+        <item>Turkish lira	</item>
+        <item>Ukrainian hryvnia	</item>
+        <item>Pound sterling	</item>
+        <item>European euro	</item>
+    </string-array>
+    <string-array name="NorthAmericaCountires">
+        <item>Antigua and Barbuda</item>
+        <item>Bahamas</item>
+        <item>Barbaodos</item>
+        <item>Belize</item>
+        <item>Canada</item>
+        <item>CostaRica</item>
+        <item>Cuba</item>
+        <item>Dominica</item>
+        <item>Dominican Republic</item>
+        <item>El Salvador</item>
+        <item>Grenada</item>
+        <item>Guatemala</item>
+        <item>Haiti</item>
+        <item>Honduras</item>
+        <item>Jamaica</item>
+        <item>Mexico</item>
+        <item>Nicaragua</item>
+        <item>Panama</item>
+        <item>SaintKitts and Nevis</item>
+        <item>Saint Lucia</item>
+        <item>SaintVincent and grenadines</item>
+        <item>Trinidad and Tobago</item>
+        <item>United States of America</item>
+    </string-array>
+    <string-array name="NorthAmericaCapitals">
+        <item>SaintJohns</item>
+        <item>Nassau</item>
+        <item>BridgeTown</item>
+        <item>Belmopan</item>
+        <item>Ottowa</item>
+        <item>SanJose</item>
+        <item>Havana</item>
+        <item>Roseau</item>
+        <item>SantoDomingo</item>
+        <item>San Salvador</item>
+        <item>St.Georges</item>
+        <item>Gautamela city</item>
+        <item>Port au Prince</item>
+        <item>Tegucigalpa</item>
+        <item>Kingston</item>
+        <item>Mexico City</item>
+        <item>Managua</item>
+        <item>Panama City</item>
+        <item>Basseterre</item>
+        <item>Castries</item>
+        <item>Knigstown</item>
+        <item>Port of Spain</item>
+        <item>Washington D.C.</item>
+    </string-array>
+    <string-array name="NorthAmericaCurrency">
+        <item>East Caribbean dollar	</item>
+        <item>Bahamian dollar	</item>
+        <item>Barbadian dollar	</item>
+        <item>Belize dollar	</item>
+        <item>Canadian dollar	</item>
+        <item>Costa Rican colon	</item>
+        <item>Cuban peso	</item>
+        <item>East Caribbean dollar	</item>
+        <item>Dominican peso	</item>
+        <item>United States dollar</item>
+        <item>East Caribbean dollar	</item>
+        <item>Guatemalan quetzal	</item>
+        <item>Haitian gourde	</item>
+        <item>Honduran lempira	</item>
+        <item>Jamaican dollar	</item>
+        <item>Mexican peso	</item>
+        <item>Nicaraguan cordoba	</item>
+        <item>United States dollar</item>
+        <item>East Caribbean dollar	</item>
+        <item>East Caribbean dollar	</item>
+        <item>East Caribbean dollar	</item>
+        <item>Trinidad and Tobago dollar	</item>
+        <item>United States dollar</item>
+    </string-array>
+    <string-array name="AustraliaCountires">
+        <item>Australia</item>
+        <item>Fiji</item>
+        <item>Kiribati</item>
+        <item>Marshall Islands</item>
+        <item>Micronesia</item>
+        <item>Nauru</item>
+        <item>Newzeland</item>
+        <item>Palau</item>
+        <item>Papua New Guinea</item>
+        <item>Samoa</item>
+        <item>Solomon islands</item>
+        <item>Tonga</item>
+        <item>Tuvalu</item>
+        <item>Vanautu</item>
+    </string-array>
+    <string-array name="AustraliaCapitals">
+        <item>Canberra</item>
+        <item>Suva</item>
+        <item>South Tarawa</item>
+        <item>Majuro</item>
+        <item>Palikir</item>
+        <item>YarenDistrict</item>
+        <item>Wellington</item>
+        <item>Ngerulmud</item>
+        <item>PortMoresby</item>
+        <item>Apia</item>
+        <item>Honiara</item>
+        <item>Nukualofa</item>
+        <item>Funafuti</item>
+        <item>PortVila</item>
+
+    </string-array>
+    <string-array name="AustraliaCurrency">
+        <item>Australian dollar	</item>
+        <item>Fijian dollar	</item>
+        <item>Australian dollar	</item>
+        <item>United States dollar	</item>
+        <item>United States dollar	</item>
+        <item>Australian dollar	</item>
+        <item>New Zealand dollar	</item>
+        <item>United States dollar	</item>
+        <item>Papua New Guinean kina	</item>
+        <item>Samoan tala	</item>
+        <item>Solomon Islands dollar	</item>
+        <item>Tongan pa’anga	</item>
+        <item>Australian dollar	</item>
+        <item>Vanuatu vatu	</item>
+    </string-array>
+    <string name="title_activity_africa">Africa</string>
+    <string name="title_activity_asia_adapter">AsiaAdapter</string>
+    <string name="title_activity_europe_list_adapter">EuropeListAdapter</string>
+    <string name="title_activity_north_america_list_adapter">NorthAmerica</string>
+    <string name="title_activity_austalia_list_adapter">Australia</string>
+    <string name="title_activity_quiz">Capital Quiz</string>
+    <string name="title_activity_result">Quiz Result</string>
+    <string name="title_activity_imagequiz">Flag Quiz</string>
+    <string name="title_activity_main_activity2">Country and Capital cities</string>
+    <string name="title_activity_continentwise_quiz">Continent wise Quiz</string>
+    <string name="title_activity_asia_quiz">AsiaQuiz</string>
+
+
+
+    <string-array name="AustraliaCountiresquestions">
+        <item>Australia Capital?</item>
+        <item>Fiji Capital?</item>
+        <item>Kiribati Capital?</item>
+        <item>Marshall Islands Capital?</item>
+        <item>Micronesia Capital?</item>
+        <item>Nauru  Capital?</item>
+        <item>Newzeland  Capital?</item>
+        <item>Palau  Capital?</item>
+        <item>Papua New Guinea  Capital?</item>
+        <item>Samoa  Capital?</item>
+        <item>Solomon islands  Capital?</item>
+        <item>Tonga  Capital?</item>
+        <item>Tuvalu  Capital?</item>
+        <item>Vanautu  Capital?</item>
+    </string-array>
+    <string-array name="AustraliaCapitalanswers">
+    <item>Canberra</item>
+    <item>Suva</item>
+    <item>South Tarawa</item>
+    <item>Majuro</item>
+    <item>Palikir</item>
+    <item>YarenDistrict</item>
+    <item>Wellington</item>
+    <item>Ngerulmud</item>
+    <item>PortMoresby</item>
+    <item>Apia</item>
+    <item>Honiara</item>
+    <item>Nukualofa</item>
+    <item>Funafuti</item>
+    <item>PortVila</item>
+    </string-array>
+    <string-array name="Australiaanswersoptions">
+        <item>Canberra</item>
+        <item>Suva</item>
+        <item>South Tarawa</item>
+        <item>Majuro</item>
+        <item>Palikir</item>
+        <item>YarenDistrict</item>
+        <item>Wellington</item>
+        <item>Ngerulmud</item>
+        <item>PortMoresby</item>
+        <item>Apia</item>
+        <item>Honiara</item>
+        <item>Nukualofa</item>
+        <item>Funafuti</item>
+        <item>PortVila</item>
+        <item>Canberra</item>
+        <item>Suva</item>
+        <item>South Tarawa</item>
+        <item>Majuro</item>
+    </string-array>
+    <string name="title_activity_antarctica">Antarctica</string>
+    <string name="title_activity_navigation_main">Navigation_main</string>
+    <string name="title_activity_tally__answers">Tally Your Answers</string>
+</resources>

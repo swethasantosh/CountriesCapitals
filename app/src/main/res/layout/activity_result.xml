@@ -1,0 +1,101 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.swethasantosh.countriescapitals.ResultActivity"
+    >
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text"
+        android:text="@string/Try"
+
+        android:gravity="center_vertical|center_horizontal"
+        android:textStyle="bold"
+        android:padding="10dp"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/score"
+        android:text="@string/Score"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:layout_below="@+id/text"/>
+
+  <!--  <TextView android:text="Score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scoretext"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:padding="10dp"
+        android:layout_below="@+id/score"/>  -->
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:padding="10dp"
+        android:layout_centerHorizontal="true"
+        android:secondaryProgressTint="#D32F2F"
+        android:progressTint="#4CAF50"
+        android:layout_below="@+id/score"
+        android:max="500"
+        android:progress="0"
+        android:progressDrawable="@drawable/circular"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/red_button"
+        android:text="Restart Quiz"
+        android:id="@+id/restartquiz"
+        android:padding="10dp"
+        android:layout_below="@+id/progressBar"
+        android:layout_marginBottom="15dp"
+        android:layout_centerHorizontal="true" />
+    <!--<Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/red_button"
+        android:text="Review answers"
+        android:id="@+id/NextLevel"
+        android:padding="10dp"
+        android:layout_below="@+id/restartquiz"
+        android:layout_marginBottom="15dp"
+        android:layout_centerHorizontal="true" />-->
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/red_button"
+        android:text="ReView Answers"
+        android:id="@+id/restartanswers"
+        android:padding="10dp"
+        android:layout_below="@+id/restartquiz"
+        android:layout_marginBottom="15dp"
+        android:layout_centerHorizontal="true"
+        />
+
+
+
+
+</RelativeLayout>

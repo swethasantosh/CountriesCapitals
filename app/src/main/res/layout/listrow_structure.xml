@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#607D8B"
+    android:layout_marginBottom="25dp"
+    android:layout_marginTop="25dp"
+
+
+    android:descendantFocusability="blocksDescendants">
+
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/rowimage"
+        android:padding="15dp"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/libya"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rowtext"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp"
+        android:text="Countryname"
+        android:textSize="18dp"
+        android:textColor="@android:color/primary_text_dark_nodisable"
+        android:textStyle="bold"
+        android:layout_toRightOf="@+id/rowimage"
+       android:layout_alignParentRight="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rowtext2"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:textColor="#ffff"
+
+        android:text="Capitalname"
+        android:textStyle="bold"
+        android:layout_toRightOf="@+id/rowimage"
+        android:layout_below="@+id/rowtext"
+        android:layout_alignParentRight="true"/>
+
+
+    <Button
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:id="@+id/audio"
+        android:background="@drawable/ic_action_play"
+        android:focusableInTouchMode="true"
+        android:gravity="center"
+
+        android:layout_alignBottom="@+id/rowtext2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.swethasantosh.countriescapitals" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.swethasantosh.countriescapitals.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.swethasantosh.countriescapitals.SouthAmerica"
+            android:label="@string/title_activity_south_america"
+            android:parentActivityName="com.swethasantosh.countriescapitals.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.swethasantosh.countriescapitals.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.swethasantosh.countriescapitals.CountryInfo"
+            android:label="@string/title_activity_country_info"
+            android:parentActivityName="com.swethasantosh.countriescapitals.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.swethasantosh.countriescapitals.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.swethasantosh.countriescapitals.Africa"
+            android:label="@string/title_activity_africa"
+            android:parentActivityName="com.swethasantosh.countriescapitals.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.swethasantosh.countriescapitals.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.swethasantosh.countriescapitals.Asiamainactivity"
+            android:label="Asia"
+            android:parentActivityName="com.swethasantosh.countriescapitals.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.swethasantosh.countriescapitals.MainActivity" />
+
+
+            <!--
+             searchview-->
+            <meta-data android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+
+
+        </activity>
+        <activity
+            android:name="com.swethasantosh.countriescapitals.EuropeMainActivity"
+            android:label="Europe"
+            android:parentActivityName="com.swethasantosh.countriescapitals.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.swethasantosh.countriescapitals.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.swethasantosh.countriescapitals.NorthAmericaMainActivity"
+            android:label="@string/title_activity_north_america_list_adapter"
+            android:parentActivityName="com.swethasantosh.countriescapitals.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.swethasantosh.countriescapitals.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.swethasantosh.countriescapitals.AusraliaMainActivity"
+            android:label="@string/title_activity_austalia_list_adapter"
+            android:parentActivityName="com.swethasantosh.countriescapitals.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.swethasantosh.countriescapitals.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.swethasantosh.countriescapitals.Allcountriesadapter"
+            android:label="All Countries"
+            android:parentActivityName="com.swethasantosh.countriescapitals.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.swethasantosh.countriescapitals.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.swethasantosh.countriescapitals.QuizActivity"
+            android:label="@string/title_activity_quiz"
+            android:parentActivityName="com.swethasantosh.countriescapitals.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.swethasantosh.countriescapitals.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.swethasantosh.countriescapitals.ResultActivity"
+            android:label="@string/title_activity_result"
+            android:parentActivityName="com.swethasantosh.countriescapitals.ContinentwiseQuiz" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.swethasantosh.countriescapitals.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.swethasantosh.countriescapitals.Imagequiz"
+            android:label="@string/title_activity_imagequiz"
+            android:parentActivityName="com.swethasantosh.countriescapitals.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.swethasantosh.countriescapitals.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.swethasantosh.countriescapitals.MainActivity2"
+            android:label="@string/title_activity_main_activity2" >
+        </activity>
+        <activity
+            android:name="com.swethasantosh.countriescapitals.ContinentwiseQuiz"
+            android:label="@string/title_activity_continentwise_quiz" >
+        </activity>
+        <activity
+            android:name="com.swethasantosh.countriescapitals.AsiaQuiz"
+            android:label="@string/title_activity_asia_quiz" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.swethasantosh.countriescapitals.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.swethasantosh.countriescapitals.Antarctica"
+            android:label="@string/title_activity_antarctica" >
+        </activity>
+        <activity
+            android:name="com.swethasantosh.countriescapitals.Navigation_main"
+            android:label="@string/title_activity_navigation_main" >
+        </activity>
+        <activity
+            android:name="com.swethasantosh.countriescapitals.Africadetails"
+            android:label="@string/title_activity_country_info"
+            android:parentActivityName="com.swethasantosh.countriescapitals.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.swethasantosh.countriescapitals.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.swethasantosh.countriescapitals.Asiadetails"
+            android:label="@string/title_activity_country_info"
+            android:parentActivityName="com.swethasantosh.countriescapitals.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.swethasantosh.countriescapitals.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.swethasantosh.countriescapitals.Australiadetails"
+            android:label="@string/title_activity_country_info"
+            android:parentActivityName="com.swethasantosh.countriescapitals.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.swethasantosh.countriescapitals.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.swethasantosh.countriescapitals.NAdetails"
+            android:label="@string/title_activity_country_info"
+            android:parentActivityName="com.swethasantosh.countriescapitals.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.swethasantosh.countriescapitals.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.swethasantosh.countriescapitals.Europedetails"
+            android:label="@string/title_activity_country_info"
+            android:parentActivityName="com.swethasantosh.countriescapitals.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.swethasantosh.countriescapitals.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.swethasantosh.countriescapitals.Tally_Answers"
+            android:label="@string/title_activity_tally__answers" >
+
+        </activity>
+        <activity android:name="com.swethasantosh.countriescapitals.Allcountriesinfo"
+            android:label="All Countries">
+
+            </activity>
+    </application>
+
+</manifest>
