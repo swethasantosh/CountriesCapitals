@@ -21,18 +21,20 @@ import java.util.List;
 import java.util.Locale;
 
 
-public class AsiaListAdapter  extends BaseAdapter implements Filterable
+public class AsiaListAdapter  extends BaseAdapter
+        implements Filterable
 {
-    TextToSpeech t1;
 
+
+    TextToSpeech t1;
 
    // ArrayList<AsiaSingleRow> asiarow;
 
 
-   List<AsiaSingleRow> asiarow;
+  // List<AsiaSingleRow> asiarow;
 
 
-    //List<AsiaSingleRow> originalist;
+    List<AsiaSingleRow> originalist;
 
     AsiaSingleRow asiaobj;
     Context context;
@@ -43,8 +45,8 @@ public class AsiaListAdapter  extends BaseAdapter implements Filterable
    public AsiaListAdapter(Context c,ArrayList<AsiaSingleRow> asiarow)
    {
         this.context = c;
-        this.asiarow = asiarow;
-       //this.originalist = asiarow;
+       // this.asiarow = asiarow;
+       this.originalist = asiarow;
         this.filterlist = asiarow;
 
    }
@@ -53,17 +55,17 @@ public class AsiaListAdapter  extends BaseAdapter implements Filterable
     public int getCount()
     {
 
-        return asiarow.size();
-       // return originalist.size();
+       // return asiarow.size();
+        //return originalist.size();
 
-        //return filterlist.size();
+        return filterlist.size();
 
     }
     @Override
     public Object getItem(int position)
     {
-        return asiarow.get(position);
-       // return filterlist.get(position);
+        //return asiarow.get(position);
+         return filterlist.get(position);
         // return originalist.get(position);
 
     }
@@ -71,12 +73,14 @@ public class AsiaListAdapter  extends BaseAdapter implements Filterable
     @Override
     public long getItemId(int position) {
 
-        return asiarow.indexOf(getItem(position));
-        //return filterlist.indexOf(getItem(position));
+       // return asiarow.indexOf(getItem(position));
+        return filterlist.indexOf(getItem(position));
         // return originalist.indexOf(getItem(position));
 
 
+
     }
+
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent)
@@ -91,9 +95,9 @@ public class AsiaListAdapter  extends BaseAdapter implements Filterable
         final TextView capitals = (TextView)convertView.findViewById(R.id.rowtext2);
         ImageView flagimages = (ImageView)convertView.findViewById(R.id.rowimage);
 
-        countries.setText(asiarow.get(position).getCountries());
+       /* countries.setText(asiarow.get(position).getCountries());
         capitals.setText(asiarow.get(position).getCapitals());
-        flagimages.setImageResource(asiarow.get(position).getFlagimages());
+        flagimages.setImageResource(asiarow.get(position).getFlagimages());*/
 
 
 
@@ -103,9 +107,9 @@ public class AsiaListAdapter  extends BaseAdapter implements Filterable
 
 
 
-         /* countries.setText(filterlist.get(position).getCountries());
+          countries.setText(filterlist.get(position).getCountries());
         capitals.setText(filterlist.get(position).getCapitals());
-        flagimages.setImageResource(filterlist.get(position).getFlagimages());*/
+        flagimages.setImageResource(filterlist.get(position).getFlagimages());
 
 
         Button audiobtn = (Button)convertView.findViewById(R.id.audio);
@@ -130,9 +134,6 @@ public class AsiaListAdapter  extends BaseAdapter implements Filterable
                 final String toSpeak2 = capitals.getText().toString();
                 String[] newtext = {toSpeak+ " " +toSpeak2};
 
-               // t1.speak(toSpeak +  toSpeak2 , TextToSpeech.QUEUE_FLUSH, null);
-                 //t1.speak(toSpeak + "  " + "    "+ toSpeak2  , TextToSpeech.QUEUE_FLUSH, null);
-                //t1.playSilentUtterance(3000,TextToSpeech.QUEUE_FLUSH,toSpeak2);
                 t1.speak( toSpeak , TextToSpeech.QUEUE_FLUSH, null);
 
                 t1.setPitch((float) 1.5);
@@ -210,35 +211,47 @@ public class AsiaListAdapter  extends BaseAdapter implements Filterable
                     }
                 }
 
+
                 results.count = filters.size();
                 results.values = filters;
 
             }
             else
             {
-                //results.count = filterlist.size();
-                //results.values = filterlist;
-                results.count = asiarow.size();
-                results.values = asiarow;
+                results.count = filterlist.size();
+               results.values = filterlist;
+                // results.count = originalist.size();
+                // results.values = originalist;
+               // results.count = asiarow.size();
+                //results.values = asiarow;
             }
-
-
 
             return results;
         }
+
         @Override
         protected void publishResults(CharSequence constraint, FilterResults results)
         {
-            asiarow = (ArrayList<AsiaSingleRow>)results.values;
 
-            // filterlist = (ArrayList<AsiaSingleRow>)results.values;
+                filterlist = (ArrayList<AsiaSingleRow>)results.values;
 
-            notifyDataSetChanged();
-            // AsiaListAdapter.this.notifyDataSetChanged();
+
+           // asiarow = (ArrayList<AsiaSingleRow>)results.values;
+
+            //originalist = (ArrayList<AsiaSingleRow>)results.values;
+
+
+           notifyDataSetChanged();
+
 
         }
 
+
+
     }
+
+
+
 }
 
 

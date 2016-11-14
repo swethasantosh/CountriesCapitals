@@ -23,14 +23,13 @@ import java.util.List;
  */
 
 public class Asiamainactivity extends Navigation_main
-//public class Asiamainactivity extends Navigation_main
+
 {
     AsiaListAdapter adapter;
-
-
     String[] countries;
     String[] capitals;
     ArrayList<String> aList;
+
     int[] flagimages = {R.drawable.afghanistan,
             R.drawable.armenia,
             R.drawable.azerbaijan,
@@ -106,6 +105,11 @@ public class Asiamainactivity extends Navigation_main
 
         adapter = new AsiaListAdapter(this,getAsiarow());
 
+        //dapter2 = new FilterListAdapter(this, (ArrayList<AsiaSingleRow>)adapter.filterlist;);
+
+
+
+
         list.setAdapter(adapter);
 
 
@@ -116,15 +120,7 @@ public class Asiamainactivity extends Navigation_main
             {
                 Intent intent2 = new Intent(getApplicationContext(),Asiadetails.class);
 
-
-
-                //int pos = (int) adapter.getItemId(position);
-
-               intent2.putExtra("Position", position);
-                               //intent2.putExtra("Position",pos);
-
-                //intent2.putExtra("Position", position);
-
+                 intent2.putExtra("Position", position);
                 intent2.putExtra("Country",countries);
                 intent2.putExtra("Capital",capitals);
                 intent2.putExtra("Images",flagimages);
@@ -166,7 +162,12 @@ public class Asiamainactivity extends Navigation_main
 
         //SearchView searchView = (SearchView) MenuItemCompat.getActionView(searchItem);
 
-        SearchView searchView = (SearchView)searchItem.getActionView();
+        final SearchView searchView = (SearchView)searchItem.getActionView();
+
+
+
+
+
 
         searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener()
         {
@@ -181,9 +182,17 @@ public class Asiamainactivity extends Navigation_main
             public boolean onQueryTextChange(String newText)
             {
                 adapter.getFilter().filter(newText);
-                return false;
-                //return true;
+
+
+
+                //adapter.getFilter().filter(newText);
+
+
+                // return false;
+              return true;
             }
+
+
 
 
 

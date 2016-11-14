@@ -19,6 +19,7 @@ public class Asiadetails  extends ActionBarActivity
     //String[] country,capital,sacurrencylist,africacurrencylist;
 
     int pos=0;
+    long itemid;
 
 
     @Override
@@ -36,6 +37,10 @@ public class Asiadetails  extends ActionBarActivity
 
         Intent in =  getIntent();
         pos = in.getExtras().getInt("Position");
+
+
+
+
 
 
         final String[] country = in.getExtras().getStringArray("Country");
@@ -64,6 +69,8 @@ public class Asiadetails  extends ActionBarActivity
         /*String title = in.getStringExtra("Country");
         String title2 = in.getStringExtra("Capital");
         Bitmap recievedimage = (Bitmap)in.getParcelableExtra("Image");*/
+
+
 
 
 
